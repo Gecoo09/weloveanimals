@@ -55,9 +55,11 @@ nav {
     margin: auto;
     min-height: 80vh;
     align-items: center;
+    animation: fromLeft 1s ease;
 }
 .dogs img {
     height: 55vh;
+    animation: drop 1s ease;
 }
 .introduction {
     flex: 1;
@@ -97,6 +99,24 @@ footer p {
    color: #000000;
 }
 
-@media screen and (max-width: 1024px) {
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
+@keyframes fromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
