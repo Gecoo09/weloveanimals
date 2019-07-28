@@ -7,7 +7,7 @@
 }
 body {
     font-family: 'Luckiest Guy', cursive;
-    background: linear-gradient(to top, #FFFFFF, #434343 );
+    background: linear-gradient(to top, #FFFFFF 55%, #434343 );
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -34,10 +34,10 @@ nav {
 }
 .nav-link {
     text-decoration: none;
-    color: #000000;
+    color: #F8A04E;
 }
 .nav-link:hover {
-    color: #F8A04E;
+    color: #FFFFFF;
 }
 .logo img {
     width: 30px;
